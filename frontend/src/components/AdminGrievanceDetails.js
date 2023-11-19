@@ -93,7 +93,6 @@ const AdminGrievanceDetails = ({ grievance }) => {
     return (
         <div className="grievance-details">
             <h4>{grievance.title}</h4>
-            <p><strong>Status:</strong> {grievance.status}</p>
             <p><strong>Description:</strong> {grievance.description}</p>
             <p><strong>User Type:</strong> {grievance.userType}</p>
             <p><strong>Department:</strong> {grievance.department}</p>
