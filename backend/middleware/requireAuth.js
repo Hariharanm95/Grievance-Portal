@@ -5,9 +5,9 @@ const requireAuth = async (req, res, next) => {
     // Verify authentication
     const { authorization } = req.headers;
 
-    if (!authorization) {
-        return res.status(401).json({ error: 'Authorization token required for Grievance Forum' });
-    }
+    // if (!authorization) {
+    //     return res.status(401).json({ error: 'Authorization token required for Grievance Forum' });
+    // }
 
     const token = authorization.split(' ')[1];
 
